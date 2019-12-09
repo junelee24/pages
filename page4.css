@@ -1,0 +1,135 @@
+body{
+    margin: 0px;
+-webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Opera and Firefox */
+}
+#container{
+	position: relative;
+	left: 0px;
+	height: 100vh;
+	box-sizing: border-box;
+}
+
+.left_box{
+    position: fixed;
+    width:580px;
+    height:800px;
+    background-color: #092124;
+    z-index: 1;
+
+}
+
+.rifle{
+    position: absolute;
+    top:90px;
+    z-index: 4;
+}
+
+h4{
+    position: absolute;
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color:#d78735;
+    font-size: 90px;
+    left:410px;
+    top: 15px;
+    letter-spacing: -1px;
+    z-index: 5;
+}
+h5{
+    position: absolute;
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color:#d78735;
+    font-size: 85px;
+    left: 370px;
+    top: 50px;
+    letter-spacing: -1px;
+    z-index: 5;
+
+}
+
+h1{
+    position: absolute;
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color:#d78735;
+    font-size: 120px;
+    left: 40px;
+    bottom: -40px;
+    letter-spacing: -1px;
+    line-height: 80px;
+    z-index: 3
+
+}
+
+.date{
+    font-family: whitman, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 28px;
+    color:#374f5b;
+    position: absolute;
+    text-align: center;
+    left: 90px;
+    top: 27px;
+    letter-spacing: 0px;
+}
+
+h3{
+    position: absolute;
+    right: 560px;
+    top: 120px;
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 40px;
+    color:#092124;
+}
+h2{
+    position: absolute;
+    width: 560px;
+    height: 832px;
+    top: 270px;
+    right: 193px;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+    line-height: 30px;
+    color: #092124;
+}
+
+
+
+h6{
+    position: absolute;
+    top: -10px;
+    right: 50px;
+    font-family: futura-pt, sans-serif;
+    font-weight: 600;
+    font-style: normals;
+    font-size: 21px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #d4d4d4;
+
+}
+
+
+
+.img{
+	position: absolute;
+	width:100px;
+	height: 100px;
+	user-select: none;
+}
