@@ -17,6 +17,7 @@ body{
 
 .left_box{
     position: fixed;
+	margin: 0px;
     width:580px;
     height:800px;
     background-color: #314848;
