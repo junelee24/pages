@@ -130,6 +130,19 @@ h6{
 	height: 140px;
 	user-select: none;
 }
+#Exhibitions{
+    font-size: 50px;
+    font-family: big-caslon-fb, serif;
+    font-weight: 800;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #dddddd;
+
+position: absolute;
+left: 1000px;
+top: -80px;
+
+}
 
 @media only screen and (max-width: 600px){
     body{
